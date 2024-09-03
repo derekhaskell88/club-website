@@ -16,6 +16,11 @@
     height: 277px;
 }
 
+#toprightimg {
+    width: 277px;
+    height: 277px;
+}
+
 #topmenu {
     display: flex;
     justify-content: center;
