@@ -1,0 +1,143 @@
+/* top nav menu*/
+
+#top {
+    display: flex;
+    justify-content: center;
+}
+
+#toph1 {
+    font-family: creepster;
+    font-size: 88px;
+    color: chartreuse;
+}
+
+#topimage {
+    width: 277px;
+    height: 277px;
+}
+
+#topmenu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.topmenubuttons {
+    font-family: creepster;
+    font-size: 44px;
+    color: orange;
+}
+
+.topmenubuttons:hover {
+    color: purple;
+}
+
+.topmenubuttons:visited {
+    color: purple;
+}
+
+#headerhr {
+    width: 1300px;
+    position: center;
+    border-top: ridge 15px chartreuse;
+    padding: 3px;
+    background-color: purple;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* top nav menu*/
+
+#footerhr {
+    width: 1300px;
+    position: center;
+    border: ridge 15px chartreuse;
+    padding: 3px;
+    background-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+body {
+    background-color: black;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+h2 {
+    font-family: creepster;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+.memberprofile {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.profilepicture {
+    width: 230px;
+    height: 300px;
+    border: ridge 8px purple;
+
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: creepster;
+    font-size: 30px;
+}
+
+p:hover {
+    color: chartreuse;
+}
+
+
+
+.playbookmenu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.playbookpicture {
+    width: 230px;
+    height: 300px;
+    border: ridge 7px purple;
+    border-radius: 31px;
+
+}
+
+footer {
+    color: orange;
+    font-family: creepster;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer:hover {
+    color: purple;
+}
+
+hr {
+    width: 1300px;
+    position: center;
+    border: ridge 10px purple;
+    padding: 2px;
+    background-color: chartreuse;
+}
