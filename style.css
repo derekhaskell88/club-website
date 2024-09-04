@@ -54,6 +54,8 @@
 
 /* top nav menu*/
 
+/* footer stuff */
+
 #footerhr {
     width: 1300px;
     position: center;
@@ -65,9 +67,15 @@
     border-right: none;
 }
 
+footer {
+    color: orange;
+    font-family: creepster;
+    font-size: 30px;
+    text-align: center;
+}
 
-body {
-    background-color: black;
+footer:hover {
+    color: darkviolet;
 }
 
 .links {
@@ -75,6 +83,26 @@ body {
     justify-content: center;
     gap: 15px;
 }
+
+#linkpicture {
+    width: 90px;
+    height: 70px;
+    border: 3px ridge orange;
+    border-radius: 10px;
+
+}
+
+/* footer stuff */
+
+
+
+body {
+    background-color: black;
+    border: 25px ridge darkviolet;
+    padding: 15px;
+}
+
+
 
 
 
@@ -132,16 +160,6 @@ p:hover {
 
 }
 
-footer {
-    color: orange;
-    font-family: creepster;
-    font-size: 30px;
-    text-align: center;
-}
-
-footer:hover {
-    color: darkviolet;
-}
 
 hr {
     width: 1300px;
