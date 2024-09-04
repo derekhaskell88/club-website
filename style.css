@@ -24,22 +24,24 @@
 #topmenu {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .topmenubuttons {
     font-family: creepster;
     font-size: 44px;
-    color: orange;
-}
-
-.topmenubuttons:hover {
     color: darkviolet;
 }
 
 .topmenubuttons:visited {
-    color: darkviolet;
+    color: orange;
 }
+
+
+.topmenubuttons:hover {
+    color: chartreuse;
+}
+
 
 #headerhr {
     width: 1300px;
@@ -88,7 +90,7 @@ footer:hover {
     width: 90px;
     height: 70px;
     border: 3px ridge orange;
-    border-radius: 10px;
+    border-radius: 25px;
 
 }
 
