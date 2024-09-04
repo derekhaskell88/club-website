@@ -34,11 +34,11 @@
 }
 
 .topmenubuttons:hover {
-    color: purple;
+    color: darkviolet;
 }
 
 .topmenubuttons:visited {
-    color: purple;
+    color: darkviolet;
 }
 
 #headerhr {
@@ -46,7 +46,7 @@
     position: center;
     border-top: ridge 15px chartreuse;
     padding: 3px;
-    background-color: purple;
+    background-color: darkviolet;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -59,7 +59,7 @@
     position: center;
     border: ridge 15px chartreuse;
     padding: 3px;
-    background-color: purple;
+    background-color: darkviolet;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -85,6 +85,10 @@ h2 {
     text-align: center;
 }
 
+h2:hover {
+    color: darkviolet;
+}
+
 
 
 .memberprofile {
@@ -96,7 +100,7 @@ h2 {
 .profilepicture {
     width: 230px;
     height: 300px;
-    border: ridge 8px purple;
+    border: ridge 8px darkviolet;
 
 }
 
@@ -123,7 +127,7 @@ p:hover {
 .playbookpicture {
     width: 230px;
     height: 300px;
-    border: ridge 7px purple;
+    border: ridge 7px darkviolet;
     border-radius: 31px;
 
 }
@@ -136,7 +140,7 @@ footer {
 }
 
 footer:hover {
-    color: purple;
+    color: darkviolet;
 }
 
 hr {
@@ -144,6 +148,6 @@ hr {
     position: center;
     border: ridge 7px chartreuse;
     padding: 2px;
-    background-color: purple;
+    background-color: darkviolet;
     padding: 3px;
 }
