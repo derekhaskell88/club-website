@@ -90,8 +90,12 @@ footer:hover {
     width: 90px;
     height: 70px;
     border: 3px ridge orange;
-    border-radius: 25px;
+    border-radius: 13px;
 
+}
+
+#linkpicture:hover {
+    border: darkviolet 3px ridge;
 }
 
 /* footer stuff */
@@ -103,7 +107,6 @@ body {
     border: 25px ridge darkviolet;
     padding: 15px;
 }
-
 
 
 
