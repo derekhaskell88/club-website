@@ -142,7 +142,8 @@ footer:hover {
 hr {
     width: 1300px;
     position: center;
-    border: ridge 10px purple;
+    border: ridge 7px chartreuse;
     padding: 2px;
-    background-color: chartreuse;
+    background-color: purple;
+    padding: 3px;
 }
