@@ -86,7 +86,7 @@ footer:hover {
     gap: 15px;
 }
 
-#linkpicture {
+.linkpicture {
     width: 90px;
     height: 70px;
     border: 3px ridge orange;
@@ -94,7 +94,7 @@ footer:hover {
 
 }
 
-#linkpicture:hover {
+.linkpicture:hover {
     border: darkviolet 3px ridge;
 }
 
