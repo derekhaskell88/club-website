@@ -9,6 +9,7 @@
     font-family: creepster;
     font-size: 88px;
     color: chartreuse;
+    text-shadow: 4px 4px darkviolet;
 }
 
 #topimage {
@@ -74,10 +75,12 @@ footer {
     font-family: creepster;
     font-size: 30px;
     text-align: center;
+    text-shadow: 3px 3px darkslategrey;
 }
 
 footer:hover {
     color: darkviolet;
+    text-shadow: 1px 1px orange;
 }
 
 .links {
@@ -91,11 +94,13 @@ footer:hover {
     height: 70px;
     border: 3px ridge orange;
     border-radius: 13px;
+    box-shadow: 2px 2px darkviolet;
 
 }
 
 .linkpicture:hover {
     border: darkviolet 3px ridge;
+    box-shadow: 2px 2px orange;
 }
 
 /* footer stuff */
@@ -120,6 +125,7 @@ h2 {
 
 h2:hover {
     color: darkviolet;
+    text-shadow: 2px 2px chartreuse;
 }
 
 
@@ -145,7 +151,9 @@ p {
 }
 
 p:hover {
-    color: chartreuse;
+    color: darkviolet;
+    text-shadow: 1px 1px chartreuse;
+
 }
 
 
