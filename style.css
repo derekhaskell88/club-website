@@ -45,8 +45,7 @@
 
 
 #headerhr {
-    width: 1300px;
-    position: center;
+    width: 75%;
     border-top: ridge 15px chartreuse;
     padding: 3px;
     background-color: darkviolet;
@@ -60,8 +59,7 @@
 /* footer stuff */
 
 #footerhr {
-    width: 1300px;
-    position: center;
+    width: 75%;
     border: ridge 15px chartreuse;
     padding: 3px;
     background-color: darkviolet;
