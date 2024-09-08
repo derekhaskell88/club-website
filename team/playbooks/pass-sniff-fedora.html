@@ -31,7 +31,17 @@
         Sniffing fedora&nbsp;<a href="../servers/fedora.html"><img class="playbooklogo" src="../../images/fedora.png"
                 alt=""></a>
     </h2>
-
+    <main id="playbook-main">
+        <ul>
+            <li>Cmd: which passwd | Response: (/usr/bin/passwd)</li>
+            <li>Cmd: cd | Response: [username@servername "]$</li>
+            <li>Cmd: mkdir stakeholders; cd stakeholders | Response: [username@servername stakeholders]</li>
+            <li>Cmd: cp /usr/bin/passwd passwd.bak</li>
+            <li>Cmd: sudo dnf reinstall passwd</li>
+            <li>Cmd: passwd (#change your password)</li>
+            <li> If app is needed to restore from backup</li>
+            Cmd: sudo cp ~/stakeholders/passwd.bak /usr/bin/passwd</li>
+        </ul>
 
 
 

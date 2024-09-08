@@ -194,3 +194,12 @@ hr {
     background-color: darkviolet;
     padding: 3px;
 }
+
+#playbook-main {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    border: 1rem ridge darkviolet;
+}

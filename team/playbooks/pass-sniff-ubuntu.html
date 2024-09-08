@@ -31,10 +31,19 @@
         Sniffing Ubuntu&nbsp;<a href="../servers/ubuntu.html"><img class="playbooklogo" src="../../images/ubuntu.png"
                 alt=""></a>
     </h2>
+    <main id="playbook-main">
+        <ul>
+            <li>Cmd: which passwd | Response: (/usr/bin/passwd)</li>
+            <li>Cmd: cd</li>
+            <li>Cmd: mkdir stakeholders; cd stakeholders</li>
+            <li>Cmd: cp /usr/bin/passwd passwd.bak</li>
+            <li>Cmd: sudo apt reinstall passwd</li>
+            <li>Cmd: passwd (#change your password)</li>
+            <li> If app is needed to restore from backup</li>
+            Cmd: sudo cp ~/stakeholders/passwd.bak /usr/bin/passwd</li>
+        </ul>
 
-
-
-
+    </main>
     <footer>
         <hr id="footerhr">
         &copy; 2024 Derek Haskell. All rights reserved.
