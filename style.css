@@ -189,10 +189,9 @@ p:hover {
 hr {
     width: 1300px;
     position: center;
-    border: ridge 7px chartreuse;
-    padding: 2px;
-    background-color: darkviolet;
-    padding: 3px;
+    border: ridge 4px chartreuse;
+    padding: 7px;
+    animation: backgroundChange 11s linear infinite;
 }
 
 #playbook-main {
