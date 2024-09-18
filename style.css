@@ -204,3 +204,18 @@ hr {
     padding: 1rem;
     color: whitesmoke;
 }
+
+@font-face {
+    font-family: 'beatmyguest';
+    src: url('fonts/beatmygu.ttf');
+    src: local('beatmyguest'), url('fonts/beatmygu.ttf') format('truetype');
+}
+
+#home-page-h2 {
+    font-family: beatmyguest;
+}
+
+#home-page-h2:hover {
+    text-shadow: none;
+    color: whitesmoke;
+}
